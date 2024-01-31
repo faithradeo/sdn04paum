@@ -1,0 +1,26 @@
+.full-on-mobile {
+    width: auto;
+}
+.banner-profile {
+    height: 200px;
+}
+.half-on-desktop {
+    width: 50%;
+}
+
+.container-raport {
+    height: 297mm;
+    width: 210mm;
+}
+
+@media screen and (max-width: 480px) {
+    .half-on-desktop {
+        width: 100%;
+    }
+    .full-on-mobile {
+        width: 100%;
+    }
+    .banner-profile {
+        height: 120px;
+    }
+}
